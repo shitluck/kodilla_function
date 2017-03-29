@@ -1,5 +1,5 @@
 ﻿function getTriangleArea(a,h) {
-    if (isNaN(a,h) == true) {
+    if (isNaN(a) || isNaN(h)) {
         alert('Nieprawidłowe dane');
     } else if ((a <= 0) || (h <= 0)) {
         alert('Nieprawidłowe dane');
